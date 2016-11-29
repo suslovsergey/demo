@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Log.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Pods-Demo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Pods-DemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>PromiseKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>RxGesture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>SteviaLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>SwiftyTimer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>Whisper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>XLActionController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0CD5FF7EED47E1985645A197D4E2E83C</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>1028A3E77C2B7B1DC70B4532E8A08444</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>1ABE3786C0CE46DBACD3AF13A96237E5</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>31A29BCEE93DDC7A9201BF4BBC95B483</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>534B88A2BE64EDBE2A77A14B4A90013B</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>5CE1B76F5857A6175957086417E46CCC</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>5EC0F4A7F2391DFEA145BA6113C44A2B</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>6A460683CF3E7EBB31898EACE9E15637</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>6C75B7FCC8534F3CBECCCBD786EFDF20</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>77DD4EB5F5CA470CC472D1A04F8DBD69</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>7FF512998420BBE39DB68634807B5695</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>92E23C900F40CCBE754D3A510A92ABFD</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>A2EB6E5971F261C8ED2AABE7F24759D7</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>A5FE4F67176C115B7742FB12FF11C948</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>B1D87DA97E8306673683F67A5891831F</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>C13666C5F4FB49261BC114169346ED29</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>C39D2D3978823C3F16642DA5DACC205F</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>CE480B78E0C8E427E693146821BDAED1</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>E5E095F9AAEF7C1F6889BA79CD79A56C</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>F02A8F4280AD62F6388863D3D97E531B</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>F0F330866F77AB0BBF70E48F47240BA1</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (4.1.0)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - Log (1.0)
+  - Material (2.3.16):
+    - Material/Core (= 2.3.16)
+  - Material/Core (2.3.16)
+  - ObjectMapper (2.2.1)
+  - OHHTTPStubs (5.2.2):
+    - OHHTTPStubs/Default (= 5.2.2)
+  - OHHTTPStubs/Core (5.2.2)
+  - OHHTTPStubs/Default (5.2.2):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.2):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.2):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.2)
+  - OHHTTPStubs/Swift (5.2.2):
+    - OHHTTPStubs/Core
+  - PromiseKit (4.0.5):
+    - PromiseKit/Foundation (= 4.0.5)
+    - PromiseKit/QuartzCore (= 4.0.5)
+    - PromiseKit/UIKit (= 4.0.5)
+  - PromiseKit/CorePromise (4.0.5)
+  - PromiseKit/Foundation (4.0.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.5):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (3)
+  - Realm (2.1.0):
+    - Realm/Headers (= 2.1.0)
+  - Realm/Headers (2.1.0)
+  - RealmSwift (2.1.0):
+    - Realm (= 2.1.0)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxGesture (0.2.0):
+    - RxCocoa (~> 3.0.0)
+    - RxSwift (~> 3.0.0)
+  - RxSwift (3.0.1)
+  - SteviaLayout (3.0.1)
+  - SwiftyTimer (2.0.0)
+  - Whisper (4.0.0)
+  - XLActionController (3.0.1):
+    - XLActionController/Core (= 3.0.1)
+  - XLActionController/Core (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Log
+  - Material
+  - ObjectMapper
+  - OHHTTPStubs
+  - OHHTTPStubs/Swift
+  - PromiseKit
+  - ReachabilitySwift
+  - RealmSwift
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SteviaLayout
+  - SwiftyTimer
+  - Whisper
+  - XLActionController
+
+SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  Log: 5e368c9528db07517d18d2d04ff5fe2b6f5a1e21
+  Material: db663ff81d7c72a8f7454fc297d147dcba8bb869
+  ObjectMapper: 41e43e1a89f8060ef5ea5d04ba852e269a621d68
+  OHHTTPStubs: 34d9d0994e64fcf8552dbfade5ce82ada913ee31
+  PromiseKit: 593b5e24ded6cbb1ebc708bc2c3428a8a5632d91
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: bc829ad0ef3d4eea70c34cfcc3b1704d18d50df1
+  RealmSwift: a4d4abbf0088c337cab5b738054395842e4b3052
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxGesture: 17b250d3c6732b35fab53d09800d35ceef717847
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  SteviaLayout: 788cf378fece7e60f11bd94c25dc273ce4d153b1
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  Whisper: 08be92623311f8e53201e62e17f6d7b9599a4714
+  XLActionController: 57fe0ce1642e2eed971b188b490762345fdbf963
+
+PODFILE CHECKSUM: e126ac49a93161ec32cab2d00893c499c5a1e6f2
+
+COCOAPODS: 1.1.1
