@@ -8,10 +8,12 @@ import ObjectMapper
 
 class ApiRequest: Mappable {
     required init?(map: Map) {
-        super.init?(map: map)
+    }
+    
+    init() {
+        
     }
 
     func mapping(map: Map) {
-        super.mapping(map: map)
     }
 }

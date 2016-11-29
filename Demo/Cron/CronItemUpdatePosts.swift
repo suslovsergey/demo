@@ -9,7 +9,7 @@ import SwiftyTimer
 class CronItemUpdatePosts: CronItemBase {
     override init() {
         super.init()
-        self.interval = 10.second
+        self.interval = 30.second
         self.block = {
             Notify.send(NotifyLoadPostsStart.self)
             ModelPost.get()

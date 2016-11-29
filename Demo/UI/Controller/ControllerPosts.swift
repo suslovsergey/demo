@@ -77,7 +77,7 @@ private extension ControllerPosts {
                       return
                   }
                   DispatchQueue.main.async {
-                      Whisper.show(whisper: Message(title: "Posts loading from web...", backgroundColor: Color.orange.lighten1),
+                      Whisper.show(whisper: Message(title: "Updating...", backgroundColor: Color.orange.lighten1),
                               to: nav,
                               action: .present)
                   }
@@ -98,17 +98,9 @@ private extension ControllerPosts {
                       return
                   }
 
-                  guard let navigationController = s.navigationController else {
-                      return
-                  }
-
                   let n = ModelStorage.posts()
                   let delta = n.count - s.response.count
                   s.response = n
-                  let announcement = Announcement(title: "Update Posts",
-                          subtitle: "Update Posts",
-                          image: nil,
-                          duration: 0)
 
                   if delta > 0 {
                       s.tableView.beginUpdates()
@@ -183,8 +175,11 @@ private extension ControllerPosts {
             guard let s = self else {
                 return
             }
-            s.title = "System Online"
-            s.navigationController?.navigationBar.barTintColor = Color.green.lighten1
+            DispatchQueue.main.async {
+                s.title = "System Online"
+                s.navigationController?.navigationBar.barTintColor = Color.green.lighten1
+            }
+            
         }
 
         reachability.whenUnreachable = { [weak self] r in
@@ -194,8 +189,10 @@ private extension ControllerPosts {
             guard let s = self else {
                 return
             }
+            DispatchQueue.main.async {
             s.title = "System Offline"
             s.navigationController?.navigationBar.barTintColor = Color.red.lighten1
+            }
         }
 
         do {

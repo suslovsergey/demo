@@ -78,6 +78,6 @@ class ActionControllerAddPost: ActionControllerBase<ActionAddPostCell> {
     }
 
     required public init?(coder aDecoder: NSCoder) {
-        super.init?(coder: aDecoder)
+        fatalError()
     }
 }

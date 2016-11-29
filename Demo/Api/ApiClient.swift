@@ -39,7 +39,7 @@ class ApiClient {
                                         fulfill: @escaping (ApiClientOptions<T>) -> Void,
                                         reject: @escaping (Error) -> Void) {
 
-        let r = mgr.request(options.url,
+        mgr.request(options.url,
                            method: options.method,
                            parameters: options.parameters,
                            encoding: (options.method == .post) ? Alamofire.JSONEncoding.default : Alamofire.URLEncoding.default)

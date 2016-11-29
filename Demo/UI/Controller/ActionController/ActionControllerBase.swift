@@ -38,8 +38,8 @@ class ActionControllerBase<T: UICollectionViewCell>: ActionController<T, String,
     func keyboardWillShow(notification: NSNotification) {
         
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y == 0 {
-                self.view.frame.origin.y -= keyboardSize.height
+            if self.view.frame.origin.y == 0 || self.view.frame.origin.y == 20 { //Hack for Call/Internet status bar -- Надо делать нормально
+                self.view.frame.origin.y -= (keyboardSize.height + self.view.frame.origin.y)
             }
         }
         
